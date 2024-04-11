@@ -13,8 +13,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "buold": "npm run check && vite build",
+    "build": "npm run check && vite build",
     "check": "prettier --check . && tsc --noEmit",
-    "build": "npm test && vite build"
+    "prepare": "husky install"
   }
 }
